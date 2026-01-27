@@ -1,0 +1,53 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Gacha Reveal Animation Metadata",
+  "type": "object",
+  "properties": {
+    "id": { "type": "string" },
+    "heroId": { "type": "string" },
+    "rarity": { "type": "string" },
+    "format": { "type": "string", "enum": ["video", "image_sequence"] },
+    "outputType": { "type": "string", "enum": ["realtime", "prerendered"] },
+    "platforms": { "type": "array", "items": { "type": "string" } },
+    "resolution": { "type": "string" },
+    "fps": { "type": "integer", "minimum": 1 },
+    "durationSeconds": { "type": "number", "minimum": 0 },
+    "sequencePhases": { "type": "array", "items": { "type": "string" } },
+    "fxLayers": { "type": "array", "items": { "type": "string" } },
+    "audio": {
+      "type": "object",
+      "properties": {
+        "bgm": { "type": "string" },
+        "sfx": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "uiOverlay": { "type": "array", "items": { "type": "string" } },
+    "localization": {
+      "type": "object",
+      "properties": {
+        "texts": { "type": "array", "items": { "type": "string" } },
+        "languages": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "integration": {
+      "type": "object",
+      "properties": {
+        "enterEventId": { "type": "string" },
+        "interactiveStartTimestamp": { "type": "number" },
+        "exitEventId": { "type": "string" },
+        "analytics": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "naming": { "type": "string" },
+    "filePaths": {
+      "type": "object",
+      "properties": {
+        "video": { "type": "string" },
+        "project": { "type": "string" },
+        "layers": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "status": { "type": "string", "enum": ["planned", "in_progress", "done"] }
+  },
+  "required": ["id", "heroId", "rarity", "format", "outputType", "resolution", "fps", "status"]
+}

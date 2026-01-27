@@ -1,0 +1,78 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Video Asset Metadata",
+  "type": "object",
+  "properties": {
+    "id": { "type": "string" },
+    "category": { "type": "string", "enum": ["cutscene", "reveal", "showcase", "bg_loop", "promo", "tutorial"] },
+    "format": { "type": "string", "enum": ["video", "image_sequence"] },
+    "platforms": { "type": "array", "items": { "type": "string" } },
+    "resolution": { "type": "string" },
+    "fps": { "type": "integer", "minimum": 1 },
+    "durationSeconds": { "type": "number", "minimum": 0 },
+    "usesImageSequence": { "type": "boolean" },
+    "inputAssets": {
+      "type": "object",
+      "properties": {
+        "characters": { "type": "array", "items": { "type": "string" } },
+        "animations": { "type": "array", "items": { "type": "string" } },
+        "backgrounds": { "type": "array", "items": { "type": "string" } },
+        "fxLayers": { "type": "array", "items": { "type": "string" } },
+        "uiOverlay": { "type": "array", "items": { "type": "string" } },
+        "audio": {
+          "type": "object",
+          "properties": {
+            "bgm": { "type": "string" },
+            "sfx": { "type": "array", "items": { "type": "string" } },
+            "vo": { "type": "array", "items": { "type": "string" } }
+          }
+        }
+      }
+    },
+    "storyboard": { "type": "string" },
+    "encodingProfiles": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "profileName": { "type": "string" },
+          "codec": { "type": "string" },
+          "container": { "type": "string" },
+          "resolution": { "type": "string" },
+          "fps": { "type": "integer" },
+          "bitrateKbps": { "type": "integer" },
+          "audioCodec": { "type": "string" },
+          "audioBitrateKbps": { "type": "integer" },
+          "targetPlatform": { "type": "string" }
+        }
+      }
+    },
+    "localization": {
+      "type": "object",
+      "properties": {
+        "texts": { "type": "array", "items": { "type": "string" } },
+        "languages": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "integration": {
+      "type": "object",
+      "properties": {
+        "enterEventId": { "type": "string" },
+        "interactiveStartTimestamp": { "type": "number" },
+        "exitEventId": { "type": "string" },
+        "analytics": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "filePaths": {
+      "type": "object",
+      "properties": {
+        "video": { "type": "string" },
+        "project": { "type": "string" },
+        "layers": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "status": { "type": "string", "enum": ["planned", "in_progress", "done"] },
+    "tags": { "type": "array", "items": { "type": "string" } }
+  },
+  "required": ["id", "category", "format", "resolution", "fps", "status"]
+}

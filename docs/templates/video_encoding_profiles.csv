@@ -1,0 +1,5 @@
+ProfileName,Codec,Container,Resolution,FPS,BitrateKbps,AudioCodec,AudioBitrateKbps,TargetPlatform,Notes
+Low_H264_720p30,H.264,MP4,1280x720,30,2500,AAC,128,Mobile Low,Entry-level devices
+Mid_H264_1080p60,H.264,MP4,1920x1080,60,6000,AAC,160,Mobile/PC,Mainstream quality
+High_H265_1440p60,H.265,MP4,2560x1440,60,12000,AAC,192,PC/Console,High quality
+WebM_1080p30,VP9,WebM,1920x1080,30,4500,Opus,128,Web,Web delivery
