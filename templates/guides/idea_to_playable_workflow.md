@@ -10,15 +10,15 @@
 **目标**：将模糊的想法转化为可执行的文档结构。
 
 1.  **定义核心概念**
-    *   使用 `docs/templates/3_Game Overview.md` 填写游戏的核心循环 (Core Loop) 和独特卖点 (USP)。
+    *   使用 `templates/3_Game Overview.md` 填写游戏的核心循环 (Core Loop) 和独特卖点 (USP)。
     *   **输出**：`docs/01_Overview.md`
 
 2.  **构建交付物目录**
-    *   按照 **[GDD交付物结构指南](file:///e:/workspace/GDDMarkdownTemplate/docs/templates/guides/gdd_deliverable_structure.md)** 创建项目文件夹。
+    *   按照 **[GDD交付物结构指南](GDDMarkdownTemplate/templates/guides/gdd_deliverable_structure.md)** 创建项目文件夹。
     *   建立 `docs/`, `production/`, `references/` 三层结构。
 
 3.  **核心玩法可视化**
-    *   使用 **[通用分镜方法论](file:///e:/workspace/GDDMarkdownTemplate/docs/templates/guides/universal_storyboard_method.md)** 将玩法机制转化为“关键帧”。
+    *   使用 **[通用分镜方法论](GDDMarkdownTemplate/templates/guides/universal_storyboard_method.md)** 将玩法机制转化为“关键帧”。
     *   **关键动作**：不要只写文字规则，要画出“玩家按下按钮后屏幕发生了什么”。
 
 ---
@@ -27,16 +27,16 @@
 **目标**：将 GDD 转化为美术和音频素材。
 
 1.  **建立资产清单**
-    *   使用 **[资产清单模板](file:///e:/workspace/GDDMarkdownTemplate/docs/templates/asset_list_template.csv)**。
+    *   使用 **[资产清单模板](GDDMarkdownTemplate/templates/asset_list_template.csv)**。
     *   由策划拆解出所有需要的 UI 图片、角色立绘、场景图、音效。
-    *   **角色分工**：参考 **[角色职责矩阵](file:///e:/workspace/GDDMarkdownTemplate/docs/templates/guides/role_responsibility_matrix.md)** 分配任务。
+    *   **角色分工**：参考 **[角色职责矩阵](GDDMarkdownTemplate/templates/guides/role_responsibility_matrix.md)** 分配任务。
 
 2.  **制定生产规范**
-    *   根据 **[资产提取指南](file:///e:/workspace/GDDMarkdownTemplate/docs/templates/guides/asset_extraction_guide.md)** 确定文件格式和命名规则。
+    *   根据 **[资产提取指南](GDDMarkdownTemplate/templates/guides/asset_extraction_guide.md)** 确定文件格式和命名规则。
     *   **美术生产**：参考各类生产指南（如 `ui_element_production_guide.md`, `image_asset_production_guide.md`）。
 
 3.  **特效与动效设计**
-    *   对于技能特效，参考 **[特效格式讨论](file:///e:/workspace/GDDMarkdownTemplate/docs/templates/guides/vfx_discussion.md)**，决定是使用序列帧还是视频素材。
+    *   对于技能特效，参考 **[特效格式讨论](GDDMarkdownTemplate/templates/guides/vfx_discussion.md)**，决定是使用序列帧还是视频素材。
 
 ---
 
@@ -44,7 +44,7 @@
 **目标**：在不写代码的情况下，通过视频编辑软件模拟真实的游戏体验。
 
 1.  **MVP 视频策划**
-    *   阅读 **[MVP 游玩视频指南](file:///e:/workspace/GDDMarkdownTemplate/docs/templates/guides/mvp_gameplay_video_guide.md)**。
+    *   阅读 **[MVP 游玩视频指南](GDDMarkdownTemplate/templates/guides/mvp_gameplay_video_guide.md)**。
     *   设计一段 15-30 秒的“伪实机演示”脚本。
 
 2.  **素材组装**
@@ -61,7 +61,7 @@
 **目标**：将线性视频转化为可交互的 H5 或视频广告。
 
 1.  **设计交互节点**
-    *   参考 **[试玩广告视频指南](file:///e:/workspace/GDDMarkdownTemplate/docs/templates/guides/playable_ad_video_guide.md)**。
+    *   参考 **[试玩广告视频指南](GDDMarkdownTemplate/templates/guides/playable_ad_video_guide.md)**。
     *   将 MVP 视频切分为多个片段（Intro, Idle, Action, Win/Fail）。
 
 2.  **定义跳转逻辑**
@@ -70,7 +70,7 @@
     *   **End Card**：播放结束后显示的下载引导页。
 
 3.  **批量化变体 (可选)**
-    *   如果需要测试不同的美术风格或文案，使用 **[API 视频生成指南](file:///e:/workspace/GDDMarkdownTemplate/docs/templates/guides/api_video_generation_guide.md)** 批量生成多个版本的视频片段。
+    *   如果需要测试不同的美术风格或文案，使用 **[API 视频生成指南](GDDMarkdownTemplate/templates/guides/api_video_generation_guide.md)** 批量生成多个版本的视频片段。
 
 ---
 

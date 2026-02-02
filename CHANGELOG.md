@@ -10,9 +10,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [1.2.0] - 2026-01-28
 
 ### Added
-- **Role Responsibility Matrix**: Created `docs/templates/guides/role_responsibility_matrix.md` to map GDD templates to specific team roles (Design, Art, Tech, Marketing, PM, etc.).
-- **GDD Deliverable Structure**: Created `docs/templates/guides/gdd_deliverable_structure.md` to define the standard directory structure for game design deliverables.
-- **Workflow Guide**: Created `docs/templates/guides/idea_to_playable_workflow.md` providing a step-by-step guide from initial idea to MVP video and playable ad.
+- **Role Responsibility Matrix**: Created `templates/guides/role_responsibility_matrix.md` to map GDD templates to specific team roles (Design, Art, Tech, Marketing, PM, etc.).
+- **GDD Deliverable Structure**: Created `templates/guides/gdd_deliverable_structure.md` to define the standard directory structure for game design deliverables.
+- **Workflow Guide**: Created `templates/guides/idea_to_playable_workflow.md` providing a step-by-step guide from initial idea to MVP video and playable ad.
 
 ### Changed
 - **Documentation Index**: Updated `docs/README.md` to include references to the newly created guides.

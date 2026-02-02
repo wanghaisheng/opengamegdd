@@ -33,6 +33,15 @@
 - 使用频率与节奏控制（避免打断玩家操作）：
 - 与版本更新的联动规划（新章节、新角色对应新过场）：
 
+### 5.1.6 Emotional Pacing & Short Drama Structure（情绪节奏与短剧结构）
+
+- **Emotional Curve（情绪曲线）**：
+    - 定义单局或单章节的情绪起伏（铺垫 → 阻碍 → 危机 → 高潮 → 释放）。
+- **Short Drama Pacing（短剧式节奏，如适用）**：
+    - Golden 3 Seconds（黄金3秒：开场即抓人）：
+    - Emotional Rollercoaster（情绪过山车：反转与打脸）：
+    - Core Thrill Points（核心爽点分布）：
+
 #### Cut Scene #1
 
 - Actors（登场角色）：

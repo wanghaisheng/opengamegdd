@@ -28,5 +28,5 @@
 <在此粘贴你的分镜/剧本文本>
 
 ## 参考
-- 视频资产分镜说明：[storyboard_for_video_assets.md](file:///e:/workspace/GDDMarkdownTemplate/docs/templates/guides/storyboard_for_video_assets.md)
-- 通用分镜方法论：[universal_storyboard_method.md](file:///e:/workspace/GDDMarkdownTemplate/docs/templates/guides/universal_storyboard_method.md)
+- 视频资产分镜说明：[storyboard_for_video_assets.md](GDDMarkdownTemplate/templates/guides/storyboard_for_video_assets.md)
+- 通用分镜方法论：[universal_storyboard_method.md](GDDMarkdownTemplate/templates/guides/universal_storyboard_method.md)

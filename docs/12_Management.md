@@ -58,3 +58,48 @@
 - 版本评估机制（上线后多久评估、用哪些数据来决策）：
 - 关停或重做某系统的判断标准：
 
+## 12.9 GaaS Service Blueprint（GaaS 服务蓝图）
+
+> 针对服务型游戏 (Game as a Service) 的长期规划。
+
+- **Seasonal Calendar（赛季日历）**：
+    - 赛季长度、主题轮换逻辑。
+- **LiveOps Cadence（运营节奏）**：
+    - 日常（Daily）、周常（Weekly）、月度（Monthly）活动的标准化模板。
+- **Community Engagement（社区参与）**：
+    - 社区活动、KOL 合作、UGC 激励计划。
+- **Crisis Management（危机管理）**：
+    - 炸服、恶性 Bug、舆情危机的标准应对流程 (SOP)。
+
+## 12.10 Retention Strategy（留存策略 - 3B 模型应用）
+
+- **Day 1-7 Goals**：
+    - 结合 3.11 章节的 3B 模型，制定具体的留存干预手段（推送、礼包、召回）。
+- **Long-term Retention**：
+    - 社交羁绊与沉没成本的设计。
+
+## 12.11 Marketing & Landing Page Assets（市场与落地页资产）
+
+- **Landing Page Requirements（落地页需求）**：
+    - 核心卖点 (USP) 的视觉化呈现。
+    - 转化漏斗设计 (CTA 按钮位置、诱饵设计)。
+- **Creative Assets（创意资产清单）**：
+    - 广告素材（视频、图文）的规格与方向。
+    - 应用商店截图与预览视频脚本。
+
+## 12.12 User Research Methodology（用户研究方法 - OST）
+
+- **Opportunity Solution Tree (OST)**：
+    - 如何收集用户痛点 (Pain Points)？
+    - 如何将痛点转化为机会 (Opportunities) 并通过实验 (Solutions) 验证？
+- **Feedback Loop（反馈闭环）**：
+    - 社区反馈 → 开发调整 → 公示结果的流程。
+
+## 12.13 Success Metrics for Serious Games（严肃游戏成功指标 - 特定品类）
+
+- **Behavioral Change Metrics（行为改变指标）**：
+    - 用户是否真正养成了习惯？（例如：连续打卡率、现实生活行为反馈）。
+- **Learning Outcomes（学习成果）**：
+    - 知识掌握度或技能提升的量化评估。
+
+

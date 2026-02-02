@@ -4,6 +4,8 @@
 
 本文档定义了标准的 GDD 交付物目录结构，以及每个文件应包含的核心内容。
 
+本模板采用 **Markdown 作为主载体**：天然支持版本控制（Diff/PR/Review）、模块化拆分、可复用的占位符结构，也更适合 AI agents 在生产与审阅环节中进行检索、填充与一致性校验。相比传统 PDF/Word 形式，Markdown 更利于持续迭代与自动化质量门槛（命名规范、元数据 Schema、媒体档位与资源清单）。
+
 ---
 
 ## 1. 推荐目录结构 (Directory Structure)
@@ -14,17 +16,20 @@
 [GameName]_Project_GDD/
 ├── README.md                       # 项目导航页（入口文件）
 ├── 00_ChangeLog.md                 # 变更日志 (对应模板 2_Version History)
-├── docs/                           # 核心设计文档 (Markdown)
-│   ├── 01_Overview.md              # 游戏概述 (对应模板 3_Game Overview)
-│   ├── 02_Gameplay.md              # 核心玩法 (对应模板 4_Gameplay...)
-│   ├── 03_Story_Characters.md      # 剧情与角色 (对应模板 5_Story...)
-│   ├── 04_Levels.md                # 关卡设计 (对应模板 6_Levels)
-│   ├── 05_UI_Interaction.md        # 界面交互 (对应模板 7_Interface)
-│   ├── 06_AI_Systems.md            # AI设计 (对应模板 8_Artificial Intelligence)
-│   ├── 07_Art_Style.md             # 美术风格 (对应模板 10_Game Art)
-│   ├── 08_Technical.md             # 技术架构 (对应模板 9_Technical)
-│   ├── 09_Audio.md                 # 音频设计 (集成在 10_Game Art 或独立)
-│   └── 10_Business_Ops.md          # 商业与运营 (对应模板 12_Management)
+├── docs/                           # 核心设计文档（13章，模块化 Markdown）
+│   ├── 1_Copyright Information.md  # 版权与法律信息
+│   ├── 2_Version History.md        # 文档版本与审批记录
+│   ├── 3_Game Overview.md          # 游戏概述与产品定义
+│   ├── 4_Gameplay and Mechanics.md # 核心玩法与系统机制
+│   ├── 5_Story, Setting and Character.md # 世界观与角色设定
+│   ├── 6_Levels.md                 # 关卡与内容结构
+│   ├── 7_Interface.md              # 界面与交互系统
+│   ├── 8_Artificial Intelligence.md # 人工智能设计
+│   ├── 9_Technical.md              # 技术方案与架构
+│   ├── 10_Game Art.md              # 美术风格与资源规划
+│   ├── 11_Secondary Software.md    # 配套工具与二级软件
+│   ├── 12_Management.md            # 项目管理与运营规划
+│   └── 13_Appendices.md            # 附录与资产清单
 ├── production/                     # 生产与执行文档
 │   ├── asset_lists/                # 资产需求清单
 │   │   ├── asset_list_master.csv   # 总资产表
@@ -39,8 +44,8 @@
 │   ├── images/                     # 嵌入文档的图片/图表
 │   ├── moodboard/                  # 情绪板/参考图
 │   └── literature/                 # 参考文献/IP原始资料
-└── legal/                          # 法律与版权
-    └── copyright_info.md           # (对应模板 1_Copyright Information)
+└── legal/                          # 法律与版权（可选：如需独立存放授权与合同）
+    └── copyright_info.md
 ```
 
 ---
@@ -123,13 +128,13 @@
 
 ### `production/asset_lists/`
 *   **asset_list_master.csv**:
-    *   基于 `docs/templates/asset_list_template.csv`。
+    *   基于 `templates/asset_list_template.csv`。
     *   包含所有需要制作的资产 ID、类型、状态、优先级。
 *   **用途**: 导入项目管理软件 (Jira/Trello) 生成任务单。
 
 ### `production/storyboards/`
 *   **xxx_storyboard.md**:
-    *   基于 `docs/templates/video_storyboard_template.md` 或 `universal_storyboard_method.md`。
+    *   基于 `templates/video_storyboard_template.md` 或 `universal_storyboard_method.md`。
     *   包含用于指导视频制作、过场动画或复杂交互的镜头表。
 
 ---
@@ -143,3 +148,5 @@
 - [ ] **可执行性**: 资产清单已列出，且有明确的技术规格（面数/尺寸）。
 - [ ] **视觉化**: 关键逻辑配有流程图，关键视觉配有参考图或草图。
 - [ ] **版本号**: `00_ChangeLog.md` 已更新当前交付的版本信息。
+- [ ] **可追踪性**: 关键系统、界面与资产具备可检索的 ID/命名规则，便于跨文档引用。
+- [ ] **自动化准备**: 资产元数据 Schema、媒体档位与校验门槛可用于脚本/CI 执行验证（如适用）。

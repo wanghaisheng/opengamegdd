@@ -74,3 +74,29 @@
 - Quality Metrics（评分、Bug 率、崩溃率、卡顿率）：
 - High-level Targets by Milestone（各阶段目标，例如测试版 vs 公测 vs 正式上线）：
 
+## 3.10 Design Philosophy（设计哲学）
+
+> 定义驱动体验的核心设计理念（例如：快节奏游戏的“多巴胺浓缩”，或慢节奏策略/叙事游戏的“体验提纯”）。
+
+- **Core Philosophy（核心哲学）**：
+- **Key Design Pillars（关键设计支柱）**：
+- **Experience Goals（体验目标，希望玩家产生的具体感受）**：
+
+## 3.11 Behavioral Design（行为设计 - 3B 模型）
+
+> 使用 3B 框架 (Behavior, Barriers, Benefits) 定义关键用户行为，特别是前 7-30 天的留存设计。
+
+- **Target Behaviors（目标行为，我们希望用户做什么？）**：
+- **Barriers（阻碍，什么阻止了他们？）**：
+- **Benefits（利益，我们如何激励他们？）**：
+- **7-Day User Behavior Table（7日用户行为规划表，逐日规划首周体验）**：
+
+## 3.12 Habit Formation Model（习惯养成模型 - 特定品类）
+
+> 适用于严肃游戏、教育应用或游戏化工具。
+
+- **Pedagogical/Behavioral Objectives（教学/行为目标，教授什么习惯或技能？）**：
+- **Trigger Mechanisms（触发机制，外部与内部触发器）**：
+- **Action & Variable Reward（行动与变数奖励，核心习惯循环）**：
+- **Investment（投入，用户如何存储价值以增加留存）**：
+

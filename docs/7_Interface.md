@@ -80,5 +80,26 @@
 - 字段建议：
   - Screen/State、Shot/Time、Camera/Focus、UI Components、Interaction/Gesture、Feedback（Visual/Audio）、Accessibility/Localization、Transition/Sequence、Performance Budget、Analytics Events。
 - 模板与指南：
-  - 分镜说明指南：[interface_screen_storyboard_guide.md](file:///e:/workspace/GDDMarkdownTemplate/docs/templates/interface_screen_storyboard_guide.md)
-  - 分镜表模板：[interface_screen_storyboard_template.md](file:///e:/workspace/GDDMarkdownTemplate/docs/templates/interface_screen_storyboard_template.md)
+  - 分镜说明指南：[interface_screen_storyboard_guide.md](GDDMarkdownTemplate/templates/interface_screen_storyboard_guide.md)
+  - 分镜表模板：[interface_screen_storyboard_template.md](GDDMarkdownTemplate/templates/interface_screen_storyboard_template.md)
+
+## 7.9 UX Design Philosophy（用户体验设计哲学）
+
+> 超越功能性 UI，关注“为什么玩家要交互”的心理动机。
+
+- **Curiosity-Driven Design（好奇心驱动设计）**：
+    - 如何通过未知的 UI 元素引发探索欲？（例如：未解锁的黑色剪影）。
+- **Self-Narrative（自我叙事）**：
+    - 界面如何反映玩家的成长？（例如：主界面背景随剧情变化，头像框展示成就）。
+- **Feedback Juiciness（反馈的“多汁感”）**：
+    - 确保每一次点击都有视觉、听觉甚至触觉的悦动反馈。
+
+## 7.10 Onboarding & Paywall Flows（新手流程与付费墙）
+
+- **Onboarding Flow（新手上路流程）**：
+    - FTUE (First Time User Experience) 流程图。
+    - 关键“Aha Moment”的时刻安排。
+- **Paywall Design（付费墙设计）**：
+    - 触发时机（在用户产生需求的一瞬间弹出）。
+    - 价值主张展示（清晰告知“为什么值得买”）。
+    - 心理学应用（锚定效应、社会认同等）。

@@ -13,10 +13,10 @@
 - video：预渲染展示（MP4/WebM），不参与交互；用于 Cutscene、背景循环、Promo；透明层可用 image_sequence 叠加。说明：image_sequence 非 video（不同载体与用途）。
 
 参考：
-- 视频分镜说明：[storyboard_for_video_assets.md](file:///e:/workspace/GDDMarkdownTemplate/docs/templates/guides/storyboard_for_video_assets.md)
-- 序列帧指南：[image_sequence_guide.md](file:///e:/workspace/GDDMarkdownTemplate/docs/templates/guides/image_sequence_guide.md)
-- 粒子/特效生产：[fx_particle_production_guide.md](file:///e:/workspace/GDDMarkdownTemplate/docs/templates/guides/fx_particle_production_guide.md)
-- 通用分镜方法：[universal_storyboard_method.md](file:///e:/workspace/GDDMarkdownTemplate/docs/templates/guides/universal_storyboard_method.md)
+- 视频分镜说明：[storyboard_for_video_assets.md](GDDMarkdownTemplate/templates/guides/storyboard_for_video_assets.md)
+- 序列帧指南：[image_sequence_guide.md](GDDMarkdownTemplate/templates/guides/image_sequence_guide.md)
+- 粒子/特效生产：[fx_particle_production_guide.md](GDDMarkdownTemplate/templates/guides/fx_particle_production_guide.md)
+- 通用分镜方法：[universal_storyboard_method.md](GDDMarkdownTemplate/templates/guides/universal_storyboard_method.md)
 
 ## 3. 武器特效映射（示例）
 - 枪口火焰/剑光边缘高光：fx_particle（Additive/AlphaBlend）；低端机改为 sprite_sheet。
@@ -51,7 +51,7 @@
   - 视频：VID_[Scene]_[KeyEvent]_v001.mp4
   - 材质/着色器：MAT_[Effect]_[Subject]_v001 / SHD_[Technique]_[Subject]_v001
 - 交付清单：工程资源、纹理/序列帧、预览视频/GIF、性能报告、元数据（format=fx_particle/image_sequence/sprite_sheet/3d_model/shader/material/video）。
-- 元数据与清单：见 [asset_list_template.csv](file:///e:/workspace/GDDMarkdownTemplate/docs/templates/asset_list_template.csv)、[asset_metadata_schema.json](file:///e:/workspace/GDDMarkdownTemplate/docs/templates/asset_metadata_schema.json)、[video_asset_metadata_schema.json](file:///e:/workspace/GDDMarkdownTemplate/docs/templates/video_asset_metadata_schema.json)。
+- 元数据与清单：见 [asset_list_template.csv](GDDMarkdownTemplate/templates/asset_list_template.csv)、[asset_metadata_schema.json](GDDMarkdownTemplate/templates/asset_metadata_schema.json)、[video_asset_metadata_schema.json](GDDMarkdownTemplate/templates/video_asset_metadata_schema.json)。
 
 ## 8. 与分镜/视频集成
 - 视频资产：按 S01–S05（Intro/Build-up/Key/Detail/Outro）递进；透明 FX 使用 image_sequence 叠加。

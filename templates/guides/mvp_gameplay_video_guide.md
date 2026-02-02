@@ -61,7 +61,7 @@
 - v003：本地化与多分辨率；导出最终档位与交付包
 
 ## 9. 参考与模板
-- 分镜方法：见 [universal_storyboard_method.md](file:///e:/workspace/GDDMarkdownTemplate/docs/templates/guides/universal_storyboard_method.md)
-- 视频分镜说明：见 [storyboard_for_video_assets.md](file:///e:/workspace/GDDMarkdownTemplate/docs/templates/guides/storyboard_for_video_assets.md)
-- 视频制作指南：见 [video_asset_guide.md](file:///e:/workspace/GDDMarkdownTemplate/docs/templates/guides/video_asset_guide.md)
-- 资产提取：见 [asset_extraction_guide.md](file:///e:/workspace/GDDMarkdownTemplate/docs/templates/guides/asset_extraction_guide.md)
+- 分镜方法：见 [universal_storyboard_method.md](GDDMarkdownTemplate/templates/guides/universal_storyboard_method.md)
+- 视频分镜说明：见 [storyboard_for_video_assets.md](GDDMarkdownTemplate/templates/guides/storyboard_for_video_assets.md)
+- 视频制作指南：见 [video_asset_guide.md](GDDMarkdownTemplate/templates/guides/video_asset_guide.md)
+- 资产提取：见 [asset_extraction_guide.md](GDDMarkdownTemplate/templates/guides/asset_extraction_guide.md)

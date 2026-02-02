@@ -92,7 +92,7 @@
 - 音频（audio）：BGM/SFX/VO 等。
 - 其它：shader/material/font/prefab/level/fx_particle/ui_element。
 
-- 序列帧制作与使用指南：[image_sequence_guide.md](file:///e:/workspace/GDDMarkdownTemplate/docs/templates/image_sequence_guide.md)
+- 序列帧制作与使用指南：[image_sequence_guide.md](GDDMarkdownTemplate/templates/image_sequence_guide.md)
 
 ### 格式选型与命名要点
 

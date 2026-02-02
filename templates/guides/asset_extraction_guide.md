@@ -47,12 +47,12 @@
 - 结算界面：image（静态）+ image_sequence（名牌/粒子）
 
 ## 6. 写入资产清单（建议字段）
-- 使用 [asset_list_template.csv](file:///e:/workspace/GDDMarkdownTemplate/docs/templates/asset_list_template.csv) 或 [asset_list_template.md](file:///e:/workspace/GDDMarkdownTemplate/docs/templates/asset_list_template.md)。
+- 使用 [asset_list_template.csv](GDDMarkdownTemplate/templates/asset_list_template.csv) 或 [asset_list_template.md](GDDMarkdownTemplate/templates/asset_list_template.md)。
 - 关键字段：ID、类别、格式（Format）、名称、描述、数量、变体、规格、分辨率、FPS/时长（如适用）、平台、优先级、依赖、负责人、来源（GDD页/分镜帧）、文件路径、状态、标签。
-- 元数据：使用 [asset_metadata_schema.json](file:///e:/workspace/GDDMarkdownTemplate/docs/templates/asset_metadata_schema.json)（format 枚举）。
+- 元数据：使用 [asset_metadata_schema.json](GDDMarkdownTemplate/templates/asset_metadata_schema.json)（format 枚举）。
 
 ## 7. 校验与编码（技术协同）
-- 视频编码档位：参考 [video_encoding_profiles.csv](file:///e:/workspace/GDDMarkdownTemplate/docs/templates/video_encoding_profiles.csv)。
+- 视频编码档位：参考 [video_encoding_profiles.csv](GDDMarkdownTemplate/templates/video_encoding_profiles.csv)。
 - 格式校验：参见技术章节 9.13（媒体编码与格式校验）。
 - 序列帧检查：命名连续、分辨率一致、Alpha 正常；可生成 GIF/低码率视频作为评审预览。
 

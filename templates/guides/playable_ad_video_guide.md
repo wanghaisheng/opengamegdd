@@ -37,7 +37,7 @@
 - 音频层：BGM 情绪曲线；关键节点 SFX；VO 与字幕同步。
 
 ## 6. 编码与交付
-- 分辨率/FPS：1080p@60（Mid），可提供 720p@30（Low）、1440p/4K@60（High）；参考编码档位：[video_encoding_profiles.csv](file:///e:/workspace/GDDMarkdownTemplate/docs/templates/video_encoding_profiles.csv)
+- 分辨率/FPS：1080p@60（Mid），可提供 720p@30（Low）、1440p/4K@60（High）；参考编码档位：[video_encoding_profiles.csv](GDDMarkdownTemplate/templates/video_encoding_profiles.csv)
 - 容器与编码：MP4/H.264 或 H.265；Web 场景可用 WebM。
 - 命名：VID_PLAY_[SegmentId]_[Lang]_[Profile]_v001.mp4；热点/路由表可用 CSV/JSON（随工程交付）。
 - 交付包：分段视频、工程/合成文件、分层素材、字幕/本地化、热点路由表、元数据 JSON（format=video）。
@@ -59,7 +59,7 @@
 - 全局默认：任一段未点击 → 默认路由指向“教程/继续”
 
 ## 10. 参考与模板
-- 方法论：见 [universal_storyboard_method.md](file:///e:/workspace/GDDMarkdownTemplate/docs/templates/guides/universal_storyboard_method.md)
-- MVP 游玩视频：见 [mvp_gameplay_video_guide.md](file:///e:/workspace/GDDMarkdownTemplate/docs/templates/guides/mvp_gameplay_video_guide.md)
-- 视频分镜说明：见 [storyboard_for_video_assets.md](file:///e:/workspace/GDDMarkdownTemplate/docs/templates/guides/storyboard_for_video_assets.md)
-- 视频制作指南：见 [video_asset_guide.md](file:///e:/workspace/GDDMarkdownTemplate/docs/templates/guides/video_asset_guide.md)
+- 方法论：见 [universal_storyboard_method.md](GDDMarkdownTemplate/templates/guides/universal_storyboard_method.md)
+- MVP 游玩视频：见 [mvp_gameplay_video_guide.md](GDDMarkdownTemplate/templates/guides/mvp_gameplay_video_guide.md)
+- 视频分镜说明：见 [storyboard_for_video_assets.md](GDDMarkdownTemplate/templates/guides/storyboard_for_video_assets.md)
+- 视频制作指南：见 [video_asset_guide.md](GDDMarkdownTemplate/templates/guides/video_asset_guide.md)
