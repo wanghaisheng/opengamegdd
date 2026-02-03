@@ -12,18 +12,6 @@ Each chapter is a standalone Markdown file that can live in a wiki or docs syste
 - GitHub: https://github.com/wanghaisheng
 - LinkedIn: https://www.linkedin.com/in/wanghaisheng/
 
-## Support
-- PayPal: https://www.paypal.com/ncp/payment/BAGUNNTYE9R76
-- Alipay (China):
-  
-  ![Alipay (China)](public/alipay-china.jpg)
-- Alipay (International):
-  
-  ![Alipay (International)](public/alipay-international.jpg)
-- WeChat Pay (China):
-  
-  ![WeChat Pay (China)](public/wechat-china.jpg)
-
 ## Chapters (13-file structured GDD)
 - 1_Copyright Information.md — Copyright and legal information
 - 2_Version History.md — Versioning and approvals
@@ -38,6 +26,12 @@ Each chapter is a standalone Markdown file that can live in a wiki or docs syste
 - 11_Secondary Software.md — Tooling and secondary software
 - 12_Management.md — Production, operations, and management
 - 13_Appendices.md — Appendices and asset index
+
+
+## How to download all files
+
+  ![download all files](public/how-to-download.png)
+
 
 ## Deliverable Structure Guides
 - [GDD_Deliverable_Structure.md](templates/guides/gdd_deliverable_structure.md) — Standard directory structure for GDD deliverables
@@ -87,3 +81,15 @@ Each chapter is a standalone Markdown file that can live in a wiki or docs syste
     - [playable_ad_video_guide.md](templates/guides/playable_ad_video_guide.md)
   - MVP gameplay pre-render video guide
     - [mvp_gameplay_video_guide.md](templates/guides/mvp_gameplay_video_guide.md)
+
+## Support
+- PayPal: https://www.paypal.com/ncp/payment/BAGUNNTYE9R76
+- Alipay (China):
+  
+  ![Alipay (China)](public/alipay-china.jpg)
+- Alipay (International):
+  
+  ![Alipay (International)](public/alipay-international.jpg)
+- WeChat Pay (China):
+  
+  ![WeChat Pay (China)](public/wechat-china.jpg)

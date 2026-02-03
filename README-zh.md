@@ -10,17 +10,6 @@
 - GitHub：https://github.com/wanghaisheng
 - LinkedIn：https://www.linkedin.com/in/wanghaisheng/
 
-## 支持方式
-- PayPal：https://www.paypal.com/ncp/payment/BAGUNNTYE9R76
-- 支付宝（中国）：
-  
-  ![支付宝（中国）](public/alipay-china.jpg)
-- 支付宝（国际）：
-  
-  ![支付宝（国际）](public/alipay-international.jpg)
-- 微信支付（中国）：
-  
-  ![微信支付（中国）](public/wechat-china.jpg)
 
 - 1_Copyright Information.md —— 版权与法律信息
 - 2_Version History.md —— 文档版本与审批记录
@@ -35,6 +24,11 @@
 - 11_Secondary Software.md —— 配套工具与二级软件
 - 12_Management.md —— 项目管理与运营规划
 - 13_Appendices.md —— 附录与资产清单
+
+
+## 如何下载所有文档
+
+  ![下载到本地](public/how-to-download.png)
 
 ## GDD 交付物结构指南
 - [GDD_Deliverable_Structure.md](templates/guides/gdd_deliverable_structure.md) —— 游戏设计文档交付物标准目录结构说明
@@ -85,3 +79,15 @@
     - [playable_ad_video_guide.md](templates/guides/playable_ad_video_guide.md)
   - MVP 游玩预渲染视频：  
     - [mvp_gameplay_video_guide.md](templates/guides/mvp_gameplay_video_guide.md)
+
+## 支持方式
+- PayPal：https://www.paypal.com/ncp/payment/BAGUNNTYE9R76
+- 支付宝（中国）：
+  
+  ![支付宝（中国）](public/alipay-china.jpg)
+- 支付宝（国际）：
+  
+  ![支付宝（国际）](public/alipay-international.jpg)
+- 微信支付（中国）：
+  
+  ![微信支付（中国）](public/wechat-china.jpg)
