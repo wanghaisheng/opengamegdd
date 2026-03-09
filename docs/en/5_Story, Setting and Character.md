@@ -18,8 +18,219 @@
 
 ### 5.1.3 Game Progression & Narrative Integration
 
-- **Narrative Delivery:** How the story is told through gameplay (Linear, Branching, Hub-based, Open World, etc.).
-- **Main vs. Side Quests:** The balance and interconnection between the main storyline and optional content.
+#### 5.1.3.1 Narrative Coherence Evaluation System [Weight: 10%]
+
+##### Coherence Dimension Definitions
+- **Temporal Coherence**
+  - Timeline Consistency: Logical timing of event occurrences
+  - Causal Relationships: Causal chains between preceding and following events
+  - Era Background: Unity of historical settings and story context
+- **Character Coherence**
+  - Personality Consistency: Match between character behavior and personality
+  - Growth Trajectory: Reasonable progressive development of characters
+  - Relationship Development: Natural evolution of character relationships
+- **World-building Coherence**
+  - Setting Consistency: Unified application of world-building rules
+  - Logical Self-consistency: Contradiction-free internal world logic
+  - Detail Resonance: Echoing of story details throughout
+
+##### Coherence Evaluation Checklist
+- [ ] **Story Logic**: Logical reasonableness of main storyline development
+- [ ] **Character Motivation**: Credibility of character behavior motivations
+- [ ] **Emotional Curve**: Natural smoothness of story emotional fluctuations
+- [ ] **Foreshadowing Payoff**: Reasonable recovery of early foreshadowing
+- [ ] **Branch Design**: Logical reasonableness of branching choices
+
+#### 5.1.3.2 Story Structure Design Template
+
+##### Three-Act Structure Framework
+```
+Act I: Setup - 25%
+- World Introduction: World-building and background settings
+- Character Introduction: First appearance of main characters
+- Conflict Establishment: Initial presentation of core conflicts
+- Inciting Incident: Key events that drive story development
+
+Act II: Confrontation - 50%
+- Rising Action: Gradual escalation of conflicts
+- Midpoint Turning: Major turning points in the story
+- Obstacle Escalation: Increasing difficulties and challenges
+- Dark Moment: Protagonist's lowest point
+
+Act III: Resolution - 25%
+- Climax Confrontation: Eruption of final conflicts
+- Falling Action: Aftermath of climax resolution
+- Ending Resolution: Final resolution of all conflicts
+- New Equilibrium: New state after story conclusion
+```
+
+##### Character Arc Design
+```
+Initial State → Trigger Event → Struggle Growth → Key Choice → Final Transformation
+      ↓              ↓              ↓              ↓              ↓
+[Character Flaw] [Life Change] [Face Challenge] [Value Choice] [Personal Growth]
+```
+
+##### Plot Coherence Check
+```
+Timeline Check:
+- Event A occurs → Event B develops → Event C resolves
+- Reasonableness of time intervals between events
+- Consistency of character age and era background
+
+Causality Check:
+- Cause A → Result B → Impact C
+- Clear reasons for each result
+- Avoid deus ex machina solutions
+```
+
+#### 5.1.3.3 Dialogue Coherence Design
+
+##### Dialogue Logic Framework
+```
+Dialogue Trigger → Information Transfer → Emotional Expression → Choice Branch → Result Impact
+        ↓                  ↓                  ↓                  ↓              ↓
+[Trigger Condition] [Core Information] [Emotional Tone] [Player Choice] [Story Direction]
+```
+
+##### Dialogue Consistency Check
+- **Language Style**: Unity of character dialogue styles
+- **Knowledge Level**: Knowledge background of character dialogue content
+- **Emotional State**: Match between dialogue emotion and character state
+- **Information Progression**: Gradual unfolding logic of dialogue information
+
+##### Branching Dialogue Design
+```
+Branch Structure Design:
+- Main Branches: Key choices affecting story direction
+- Character Branches: Choices affecting character relationships
+- Information Branches: Exploratory choices for additional information
+- Emotional Branches: Preference choices affecting emotional atmosphere
+
+Coherence Guarantee:
+- All branches conform to character personality
+- Branch results have reasonable logical explanations
+- Important information available in all branches
+```
+
+#### 5.1.3.4 World-building Coherence Maintenance
+
+##### Setting Consistency Checklist
+```
+Magic System Check:
+- Consistent application of magic rules
+- Reasonable setting of magic limitations
+- Balanced design of magic costs
+
+Technology System Check:
+- Era consistency of technology levels
+- Logical progression of technological development
+- Reasonable setting of technological limitations
+
+Social System Check:
+- Reasonableness of social structures
+- Unity of cultural traditions
+- Logic of value systems
+```
+
+##### Detail Echo Mechanism
+```
+Early Foreshadowing → Mid-term Development → Later Payoff
+        ↓                  ↓                  ↓
+[Detail Hint] [Gradual Revelation] [Complete Recovery]
+
+Echo Types:
+- Character Foreshadowing: Later echo of early character details
+- Plot Foreshadowing: Later realization of early event hints
+- World Foreshadowing: Later application of early world settings
+```
+
+#### 5.1.3.5 Coherence Testing Methods
+
+##### Professional Review Process
+```
+Round 1: Internal Design Review
+- Story logic check
+- Character consistency validation
+- World unity confirmation
+
+Round 2: Cross-department Review  
+- Art style consistency
+- Programming implementation feasibility
+- Audio coordination reasonableness
+
+Round 3: External Review
+- Senior design expert review
+- Target user testing
+- Literary consultant evaluation
+```
+
+##### Player Testing Methods
+```
+Testing Metric Design:
+- Comprehension: Player story understanding > 85%
+- Immersion: Player emotional engagement > 80%
+- Reasonableness: Player story logic approval > 75%
+- Satisfaction: Player story experience satisfaction > 80%
+
+Testing Question Design:
+- "Do you think this character's behavior is reasonable? Why?"
+- "Are there any confusing points in story development?"
+- "What are you most looking forward to next?"
+- "If you could change the story, how would you do it?"
+```
+
+#### 5.1.3.6 Coherence Scoring Standards
+
+##### Scoring Dimension Weights
+- **Temporal Logic**: 30% - Reasonableness of timeline and causal relationships
+- **Character Development**: 25% - Consistency of character arcs and motivations
+- **World-building**: 20% - Unity and logicality of world settings
+- **Dialogue Quality**: 15% - Naturalness and information transfer of dialogue
+- **Emotional Resonance**: 10% - Smoothness and infectiousness of emotional curves
+
+##### Scoring Level Definitions
+```
+90-100 points (Excellent):
+- Story logic completely self-consistent, no obvious flaws
+- Character development natural and reasonable, clear and credible motivations
+- World settings unified, detailed handling in place
+- Dialogue natural and smooth, effective information transfer
+- Emotional curve design reasonable, strong resonance
+
+80-89 points (Good):
+- Story logic basically reasonable, minor optimization space
+- Character development relatively natural, individual behaviors optimizable
+- World settings basically unified, few details need improvement
+- Dialogue relatively natural, basically effective information transfer
+- Emotional curve design reasonable, some resonance
+
+70-79 points (Acceptable):
+- Story logic has minor issues, needs adjustment
+- Character development has unreasonable aspects
+- World settings have minor contradictions
+- Dialogue has stiff aspects
+- Emotional curve design needs improvement
+
+60-69 points (Needs Improvement):
+- Story logic has obvious problems
+- Character development lacks reasonableness
+- World settings have contradictions
+- Dialogue quality poor
+- Emotional curve design unreasonable
+
+<60 points (Unacceptable):
+- Story logic seriously confused
+- Character development completely unreasonable
+- World settings full of contradictions
+- Dialogue quality extremely poor
+- Emotional curve design failed
+```
+
+#### 5.1.3.7 Narrative Delivery
+
+- **Narrative Delivery:** How the story is told through gameplay (Linear, Branching, Hub-based, Open World, etc.)
+- **Main vs. Side Quests:** The balance and interconnection between the main storyline and optional content
 - **Player Agency:** Balancing player freedom with narrative control (e.g., environmental storytelling vs. scripted events).
 
 ### 5.1.4 License Considerations
