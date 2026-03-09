@@ -4,10 +4,48 @@
 
 ## 3.1 Game Concept
 
-- **High-level Pitch:** (Elevator pitch within 2–3 sentences)
-- **Core Fantasy:** (The core immersive experience/fantasy)
-- **Core Loop Summary:** (One-sentence summary of the core loop)
-- **Differentiation vs Competitors:** (Key differentiators against competitors)
+- **High-level Pitch:** (Elevator pitch, 2-3 sentences)
+- **Core Fantasy:** (Core immersion/fantasy)
+- **Core Loop Summary:** (One-sentence core loop description)
+- **Differentiation vs Competitors:** (Key differentiators from competitors)
+
+### 3.1.1 Core Thrill Loop Design [Weight: 8%]
+
+#### Core Fun Identification
+- **Original Fun Point:** [Basic fun extracted from gameplay]
+- **Concentrated Core Thrill:** [The single, most core "thrill point" that players feel most pleasure, excitement, or satisfaction from]
+  - Must be a specific action or experience, such as: "one bullet exploding a group of enemies", "dodging an attack at the last second", "a successful chain elimination", or "seeing the character become extremely powerful"
+
+#### Concentration Strategy Design
+- **Increase Frequency:**
+  - How to let players experience this thrill point more frequently per unit time?
+  - [Specific Strategy 1: e.g., breaking large levels into micro-puzzles]
+  - [Specific Strategy 2: e.g., introducing short CD skills to encourage frequent use]
+- **Increase Intensity:**
+  - How to make each thrill point experience more impactful in visual, audio, and operational feedback?
+  - [Specific Strategy 1: e.g., adding bullet time and special effects]
+  - [Specific Strategy 2: e.g., designing gorgeous combo systems]
+- **Lower Barrier:**
+  - How to remove or simplify all "garbage time" and tedious operations unrelated to the core thrill?
+  - [Specific Strategy 1: e.g., canceling one-failure-restart setting]
+  - [Specific Strategy 2: e.g., simplifying complex preconditions]
+
+#### Qualitative Leap Vision
+- **Post-Concentration Experience Description:** [Vividly describe player feelings in the optimized game]
+- **Potential New Genre/Tag:** [e.g., "Rhythm-Stealth-like", "Survivor-like", "Violent Rhythm-RPG", etc.]
+
+#### Dual-Loop Structure Design
+- **Core Loop:**
+  - [Core gameplay action] → [Immediate feedback] → [Resource output]
+  - Output: [e.g., experience points, points, fragments]
+- **Long-term/Meta Loop:**
+  - [Out-of-game growth system] consumes [Core loop output]
+  - Feedback: [Provide new abilities or enhancements for the next core loop]
+
+#### Risks & Balance Mechanisms
+- **Main Risks:** [Identify potential issues from over-concentration, such as gameplay depletion, player fatigue, etc.]
+- **Long-term Balance Mechanism:** [Propose retention systems complementary to core gameplay loops]
+  - Examples: Out-of-game base construction, skill tree unlocking, collection systems, etc.
 
 ## 3.2 Product Positioning
 
