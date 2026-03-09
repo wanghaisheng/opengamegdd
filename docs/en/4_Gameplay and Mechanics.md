@@ -341,7 +341,207 @@ Need Identification → Value Presentation → Payment Guidance → Payment Proc
 
 ### 4.2.7 Numerical Design
 
-#### 4.2.7.1 Numerical System Architecture [Weight: 4%]
+#### 4.2.7.2 Game System Architecture Design
+
+#### Game Type Core Module Design
+
+##### Modular Architecture Based on Game Types
+
+Design different functional module architectures based on the core characteristics of game types:
+
+###### Action Game - Core Modules
+| Module Name | Core Positioning | Action Mechanism | Key Metrics |
+|-------------|------------------|------------------|-------------|
+| **Core Combat** | Operation Experience Core | Implement smooth combat operations and feedback | Combo Rate, Reaction Time, Operation Satisfaction |
+| **Level Design** | Challenge Progression | Provide progressively challenging level experiences | Clear Rate, Death Count, Stay Time |
+| **Character Growth** | Ability Enhancement | Enhance character abilities through equipment and skills | Power Value, Skill Unlock Rate, Equipment Acquisition Rate |
+| **Combat Feedback** | Operation Satisfaction | Strengthened visual, audio, and haptic feedback | Effect Satisfaction, Sound Score, Vibration Intensity |
+| **Achievement System** | Goal Drive | Provide clear challenge goals | Achievement Completion Rate, Full Collection Rate, Challenge Success Rate |
+
+###### RPG Game - Core Modules
+| Module Name | Core Positioning | Action Mechanism | Key Metrics |
+|-------------|------------------|------------------|-------------|
+| **Character System** | Identity Recognition | Create and cultivate personalized characters | Character Creation Rate, Customization Degree, Character Diversity |
+| **Narrative System** | Story Experience | Provide immersive story experiences | Story Completion Rate, Choice Diversity, Story Satisfaction |
+| **Combat System** | Growth Verification | Verify character growth through combat | Win Rate, Skill Usage Rate, Combat Strategy Diversity |
+| **World Exploration** | Discovery Fun | Explore vast game worlds | Map Exploration Rate, Hidden Discovery Rate, Environment Interaction Rate |
+| **Social Interaction** | Character Relationships | Build relationships with NPCs and other players | Relationship Depth, Dialogue Choices, Social Event Trigger Rate |
+
+###### Strategy Game - Core Modules
+| Module Name | Core Positioning | Action Mechanism | Key Metrics |
+|-------------|------------------|------------------|-------------|
+| **Resource Management** | Strategy Foundation | Collect, allocate, and optimize resource use | Resource Efficiency, Allocation Strategy, Economic Balance |
+| **Decision System** | Intellectual Challenge | Provide deep strategic decisions | Decision Time, Decision Quality, Strategy Diversity |
+| **Unit Management** | Tactical Execution | Control and command game units | Unit Efficiency, Tactical Diversity, Operation Accuracy |
+| **Map Control** | Strategic Goal | Occupy and control strategic points | Control Rate, Expansion Speed, Defense Success Rate |
+| **AI Opponents** | Challenge Source | Provide intelligent opponent challenges | AI Difficulty, Behavior Diversity, Learning Adaptability |
+
+###### Card Game - Core Modules
+| Module Name | Core Positioning | Action Mechanism | Key Metrics |
+|-------------|------------------|------------------|-------------|
+| **Card Collection** | Collection Fun | Obtain and collect various cards | Collection Completion Rate, Rarity Distribution, Acquisition Satisfaction |
+| **Deck Building** | Strategy Depth | Build personalized deck combinations | Deck Diversity, Building Strategy, Deck Strength |
+| **Battle System** | Competitive Experience | Implement fair card battles | Win Rate, Match Duration, Operation Satisfaction |
+| **Balance Mechanism** | Game Health | Maintain card and mechanism balance | Ban Rate, Adjustment Frequency, Environment Diversity |
+| **Card Evolution** | Long-term Growth | Card upgrade and evolution | Evolution Rate, Growth Satisfaction, Long-term Retention |
+
+###### Simulation Game - Core Modules
+| Module Name | Core Positioning | Action Mechanism | Key Metrics |
+|-------------|------------------|------------------|-------------|
+| **Business System** | Core Gameplay | Implement core business operation cycles | Revenue Growth Rate, Profit Margin, Expansion Speed |
+| **Construction System** | Creation Satisfaction | Design and build business venues | Construction Completion, Layout Satisfaction, Aesthetic Score |
+| **Employee Management** | Human Resource Optimization | Recruit, train, and manage employees | Employee Efficiency, Satisfaction, Turnover Rate |
+| **Customer System** | Market Feedback | Simulate customer behavior and needs | Customer Satisfaction, Repurchase Rate, Word-of-Mouth Spread |
+| **Economic Cycle** | Ecological Balance | Maintain business ecosystem balance | Supply-Demand Balance, Price Stability, Market Health |
+
+###### Puzzle Game - Core Modules
+| Module Name | Core Positioning | Action Mechanism | Key Metrics |
+|-------------|------------------|------------------|-------------|
+| **Matching Mechanism** | Core Experience | Implement basic matching gameplay | Matching Speed, Combo Count, Operation Accuracy |
+| **Level System** | Challenge Progression | Provide progressively challenging level designs | Clear Rate, Failure Rate, Retry Count |
+| **Power-up System** | Assistance Tools | Provide power-ups to help clear levels | Power-up Usage Rate, Acquisition Satisfaction, Payment Conversion |
+| **Visual Feedback** | Satisfaction Enhancement | Strengthen visual and audio feedback for matching | Effect Satisfaction, Sound Score, Thrill Feeling |
+| **Goal Design** | Motivation Drive | Design clear level goals | Goal Completion Rate, Challenge Success Rate, Satisfaction |
+
+###### Idle Game - Core Modules
+| Module Name | Core Positioning | Action Mechanism | Key Metrics |
+|-------------|------------------|------------------|-------------|
+| **Offline Rewards** | Core Mechanism | Core cycle of time for resources | Offline Reward Satisfaction, Return Frequency, Reward Expectation |
+| **Automation System** | Convenience | Reduce repetitive operations through automation | Automation Coverage, Operation Simplification, Convenience Score |
+| **Collection System** | Long-term Goals | Provide long-term collection goals | Collection Completion Rate, Rarity Pursuit, Full Collection Drive |
+| **Upgrade System** | Growth Experience | Continuous upgrading of characters and systems | Upgrade Frequency, Growth Satisfaction, Numerical Perception |
+| **Social Competition** | Retention Drive | Enhance retention through leaderboards and competition | Ranking Changes, Competition Participation, Social Interaction Rate |
+
+###### Dating Sim - Core Modules
+| Module Name | Core Positioning | Action Mechanism | Key Metrics |
+|-------------|------------------|------------------|-------------|
+| **Character Interaction** | Emotional Core | Emotional interaction with game characters | Interaction Frequency, Favorability Change, Emotional Investment |
+| **Story System** | Story Carrier | Provide rich story content | Story Completion Rate, Choice Diversity, Story Satisfaction |
+| **Collection Elements** | Completion Drive | Collection of CGs, voice lines, props, etc. | Collection Completion Rate, Rarity Pursuit, Full Collection Drive |
+| **Favorability System** | Relationship Progress | Quantify character relationship development | Favorability Growth Rate, Relationship Unlock Rate, Emotional Resonance |
+| **Multiple Endings** | Replay Value | Provide different story endings | Ending Unlock Rate, Replay Count, Ending Satisfaction |
+
+##### Game Type Selection Guide
+
+###### How to Determine Game Type
+1. **Core Gameplay Analysis**: Determine the game's most core gameplay mechanism
+2. **Target User Analysis**: Clarify the preferences of the main user group
+3. **Market Positioning Analysis**: Analyze positioning and differentiation in the market
+4. **Technical Implementation Analysis**: Evaluate the feasibility of technical implementation
+
+###### Mixed Type Handling
+For mixed-type games, handle according to the following principles:
+- **Clear Priority**: Use the highest proportion type as the main framework
+- **Mechanism Integration**: Integrate characteristic mechanisms of secondary types into the main framework
+- **Unified Experience**: Ensure coordinated and unified experience of different mechanisms
+- **User Matching**: Meet the composite needs of target users
+
+##### Numerical Architecture Design Template
+
+###### Universal System Numerical Positioning Table
+```
+Module Category | Subsystem Name | Numerical Positioning | Core Function | Payment Attribute | Applicability
+---------------|----------------|----------------------|---------------|------------------|---------------
+Core Gameplay | Basic Mechanics | Core Experience | Gameplay Foundation | Free Experience | ✅ Universal
+               | Level Progression | Difficulty Progression | Goal Drive | Indirect Payment | ⚠️ As Needed
+               | Operation Feedback | Experience Enhancement | Operation Satisfaction | Free Experience | ✅ Universal
+
+Combat System | Character Attributes | Combat Power Foundation | Balance Foundation | Indirect Payment | ⚠️ Combat Games
+               | Skill System | Operation Depth | Tactical Choice | Direct Payment | ⚠️ Combat Games
+               | Equipment System | Growth Carrier | Long-term Goal | Direct Payment | ⚠️ Combat Games
+               | AI Enemies | Challenge Design | Difficulty Control | Free Experience | ⚠️ Combat Games
+
+Cultivation System | Character Level | Basic Growth | Long-term Goal | Indirect Payment | ✅ Most Games
+                   | Skill Upgrade | Ability Enhancement | Power Enhancement | Direct Payment | ✅ Most Games
+                   | Equipment Enhancement | Attribute Improvement | Resource Consumption | Indirect Payment | ✅ Most Games
+                   | Collection Elements | Completion Drive | Collection Motivation | Direct Payment | ✅ Most Games
+
+Social System | Friend System | Basic Social | Retention Enhancement | Free Experience | ✅ Most Games
+             | Guild System | Clustering Behavior | Social Stickiness | Indirect Payment | ✅ Most Games
+             | Leaderboard | Competitive Drive | Goal Setting | Indirect Payment | ✅ Most Games
+             | Chat System | Communication Tool | Social Foundation | Free Experience | ✅ Most Games
+
+Task System | Main Quest | Core Guidance | Content Familiarization | Free Experience | ✅ Universal
+            | Side Quest | Content Expansion | Goal Enrichment | Free Experience | ✅ Universal
+            | Daily Tasks | Retention Drive | Activity Incentive | Indirect Payment | ✅ Universal
+            | Achievement System | Goal Collection | Completion Drive | Indirect Payment | ✅ Universal
+
+Monetization | First Charge Guidance | Payment Conversion | Payment Habit | Direct Payment | ✅ Commercial
+            | Shop System | Continuous Revenue | Daily Consumption | Direct Payment | ✅ Commercial
+            | Event Monetization | Limited Time Incentive | Rare Pursuit | Direct Payment | ✅ Commercial
+            | Privilege System | Convenience Payment | Time Value | Direct Payment | ✅ Commercial
+
+Long-term System | Rebirth System | Fresh Start | Numerical Reset | Free Mechanism | ⚠️ Specific Types
+                | Season System | Periodic Reset | Continuous Challenge | Indirect Payment | ⚠️ Competitive
+                | Event System | Regular Updates | Content Freshness | Direct Payment | ✅ Most Games
+                | Collection System | Long-term Goal | Completion Drive | Direct Payment | ✅ Most Games
+```
+
+###### Game Type Adaptation Selection Table
+```
+Game Type | Required Systems | Optional Systems | Inapplicable Systems
+----------|----------------|----------------|-------------------
+Action Game | Core Gameplay, Combat System | Cultivation, Social, Tasks | Rebirth System
+RPG Game | Core Gameplay, Cultivation System | Combat, Social, Monetization | -
+Strategy Game | Core Gameplay, Combat System | Cultivation, Social, Monetization | -
+Puzzle Game | Core Gameplay, Task System | Monetization, Collection | Combat, Rebirth
+Simulation Game | Core Gameplay, Cultivation System | Social, Monetization | Combat System
+Card Game | Core Gameplay, Combat System | Cultivation, Social, Monetization | -
+Idle Game | Core Gameplay, Long-term System | Cultivation, Monetization | Combat System
+Dating Sim | Core Gameplay, Cultivation System | Social, Monetization | Combat System
+```
+
+###### Core Loop Numerical Design
+
+##### Character Growth Curve Design
+```
+Exponential Growth Experience Design:
+- Character level segmentation: Intervals gradually increase
+- Attack power growth: Cross-interval doubling mechanism
+- Per-level growth: Increasing within intervals
+- Goal: Shape exponential thrilling experience
+
+Example Template:
+Level Range | Attack Power Min | Attack Power Max | Per-Level Growth | Cross-Interval Double
+1-20       | 1               | 2^10            | 2               | 2x
+21-40      | 41              | 2^20            | 82              | 2x
+41-60      | 1681            | 2^30            | 3362            | 2x
+...
+```
+
+##### Level Progression Rhythm Design
+```
+Level Stay Time Planning:
+- Attacks per second: 10 times (high-frequency operation)
+- Expected stay minutes: Progressive design
+- Monster HP: Calculated based on attack power and stay time
+- Boss HP: 90% of monster HP
+- Goal: Shape explosive thrilling experience
+
+Calculation Formula:
+Total Monster HP = Character Attack Power × Attacks Per Second × Expected Stay Minutes × 60
+Boss HP = Total Monster HP × 0.9
+```
+
+#### System Interconnection Design
+
+##### Core Loop Connection Diagram
+```
+Core Gameplay Loop:
+Level Progression → Resource Acquisition → Cultivation Investment → Power Enhancement → Progress to Harder Levels
+
+Monetization Loop:
+Level Progression → Encounter Bottleneck → Payment Solution → Rapid Growth → Payment Habit Formation
+
+Social Loop:
+Solo Experience → Social Need → Join Guild → Social Competition → Retention Enhancement
+```
+
+##### Numerical Balance Verification
+- **Growth Curve Reasonableness**: Avoid too fast or too slow growth experience
+- **Payment Point Balance**: Reasonable balance between free and paid
+- **System Interconnection**: Organic connection between systems
+- **Long-term Sustainability**: Avoid numerical collapse and late-stage weakness [Weight: 4%]
 
 ##### Numerical Classification System
 - **Base Attributes**
