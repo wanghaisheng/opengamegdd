@@ -1,5 +1,21 @@
 # Open Game Design Document (GDD) Markdown Template (for AI agents)
 
+
+there are 3 pack under OpenAgenticGame 
+
+## ai game studio
+
+https://github.com/wanghaisheng/OpenAgenticGame-Studios 
+
+
+## gdd generator based BMAD method
+
+https://github.com/wanghaisheng/BMad-Expansion-Pack-game-gdd-generator
+
+
+
+
+
 This folder contains an **Industrial Game Design System** designed to work well with AI agents and modern version-control workflows.
 
 It is inspired by https://github.com/LazyHatGuy/GDDMarkdownTemplate and shaped by over a year of vibe coding exploration plus years of accumulated industry analysis and game design research, incorporating advanced design concepts from TiMi Studio Group, miHoYo, Tencent, and "Concentration Theory".
